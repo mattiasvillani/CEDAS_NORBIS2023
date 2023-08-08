@@ -1,6 +1,6 @@
 ## :cloud_with_rain: CEDAS-NORBIS Summer School 2023 :cloud_with_rain:
 
-This is material is for my talk at the CEDAS-NORBIS Summer School 2023, mainly my slides, the Julia Turing.jl code that I showed in my talk, and some links to resources.
+This is the material for my talk at the CEDAS-NORBIS Summer School 2023 in Bergen, Norway. It contains my slides, the Julia Turing.jl code that I showed in my talk, and some links to resources.
 
 ## Slides :man_teacher:
 Here are the [slides](CEDASBergen2023Villani.pdf) from my talk.
