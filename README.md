@@ -3,7 +3,7 @@
 This is material is for my talk at the CEDAS-NORBIS Summer School 2023, mainly my slides, the Julia Turing.jl code that I showed in my talk, and some links to resources.
 
 ## Slides :man_teacher:
-Here are the [slides](https://github.com/mattiasvillani/CEDAS_NORBIS2023/blob/raw/CEDASBergen2023Villani.pdf) from my talk.
+Here are the [slides](CEDASBergen2023Villani.pdf) from my talk.
 
 ## Further reading :books:
 
@@ -23,13 +23,13 @@ Some good Bayesian textbooks (there are many more!):
 
 Here are some [Turing.jl tutorials](https://turinglang.org/dev/tutorials/).
 
-The file [JuliaCode.zip]() contains the following files:
+The file [JuliaCode.zip](JuliaCode.zip) contains the following files:
 - **iidnormalturing.jl** for the iid normal model with both parameters unknown.
 - **poissonregturing.jl** for the Poisson regression model, including HMC and Variational Inference for that model. Also the negative binomial regression extension is in that code.
 
 Here is what you need to do in order to run the code:
 - [Download Julia](https://julialang.org/downloads/) and install it. I used version 1.9.2. 
-- Download my [JuliaCode.zip]() with the code and extract it to a folder and open a terminal in that folder.
+- Download my [JuliaCode.zip](JuliaCode.zip) with the code and extract it to a folder and open a terminal in that folder.
 - Start Julia by typing `julia` in the terminal.
 - In Julia, type `]` and ENTER to enter the package manager. The prompt should change to something with `pkg>`.
 - activate the environment by typing `activate .` and ENTER. 
