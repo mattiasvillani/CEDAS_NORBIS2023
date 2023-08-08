@@ -32,7 +32,7 @@ Here is what you need to do in order to run the code:
 - Download my [JuliaCode.zip](code/JuliaCode.zip) with the code and extract it to a folder and open a terminal in that folder.
 - Start Julia by typing `julia` in the terminal.
 - In Julia, type `]` and ENTER to enter the package manager. The prompt should change to something with `pkg>`.
-- activate the environment by typing `activate .` and ENTER. 
+- activate the environment by typing `activate .` and ENTER. (that's activate followed by space and a dot).
 - Instantiate the environment with all dependencies by typing `instantiate` and ENTER.
 - Press BACKSPACE to exit the package manager.
 - Type for example `include("iidnormalturing.jl")` and ENTER to run the code. After the sampling, a plot should appear.
