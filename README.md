@@ -23,13 +23,13 @@ Some good Bayesian textbooks (there are many more!):
 
 Here are some [Turing.jl tutorials](https://turinglang.org/dev/tutorials/).
 
-The file [JuliaCode.zip](JuliaCode.zip) contains the following files:
+The file [JuliaCode.zip](code/JuliaCode.zip) contains the following files:
 - **iidnormalturing.jl** for the iid normal model with both parameters unknown.
 - **poissonregturing.jl** for the Poisson regression model, including HMC and Variational Inference for that model. Also the negative binomial regression extension is in that code.
 
 Here is what you need to do in order to run the code:
 - [Download Julia](https://julialang.org/downloads/) and install it. I used version 1.9.2. 
-- Download my [JuliaCode.zip](JuliaCode.zip) with the code and extract it to a folder and open a terminal in that folder.
+- Download my [JuliaCode.zip](code/JuliaCode.zip) with the code and extract it to a folder and open a terminal in that folder.
 - Start Julia by typing `julia` in the terminal.
 - In Julia, type `]` and ENTER to enter the package manager. The prompt should change to something with `pkg>`.
 - activate the environment by typing `activate .` and ENTER. 
@@ -37,4 +37,4 @@ Here is what you need to do in order to run the code:
 - Press BACKSPACE to exit the package manager.
 - Type for example `include("iidnormalturing.jl")` and ENTER to run the code. After the sampling, a plot should appear.
 
-If you get serious with Julia and want to use it for your own work, I recommend that you use an IDE such as [VS Code](https://www.julia-vscode.org/) with the [Julia extension](https://www.julia-vscode.org/docs/stable/).
+If you get serious with Julia and want to use it for your own work, I recommend that you use an IDE such as [VS Code](https://code.visualstudio.com/) with the [Julia extension](https://www.julia-vscode.org/).
