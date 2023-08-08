@@ -1,4 +1,4 @@
-using Turing
+using Turing, Plots, LaTeXStrings
 
 ScaledInverseChiSq(ν,τ²) = InverseGamma(ν/2,ν*τ²/2) # Scaled Inv-χ² distribution
 
@@ -21,3 +21,7 @@ x = [15.77,20.5,8.26,14.37,21.09]
 # Settings of the Hamiltonian Monte Carlo (HMC) sampler.
 α = 0.8
 postdraws = sample(iidnormal(x, μ₀, κ₀, ν₀, σ²₀), NUTS(α), 10000, discard_initial = 1000)
+
+p1 = histogram(postdraws.value[:,2], yaxis = false, title = L"\mu")
+p2 = histogram(sqrt.(postdraws.value[:,1]), yaxis = false, title = L"\sigma")
+plot(p1, p2, layout = (1,2), size = (600,300))
