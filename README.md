@@ -1,4 +1,4 @@
-## CEDAS-NORBIS Summer School 2023 :cloud_with_rain:
+## :cloud_with_rain: CEDAS-NORBIS Summer School 2023 :cloud_with_rain:
 
 This is material is for my talk at the CEDAS-NORBIS Summer School 2023, mainly my slides, the Julia Turing.jl code that I showed in my talk, and some links to resources.
 
@@ -18,9 +18,10 @@ Some good Bayesian textbooks (there are many more!):
 - [Bayesian Learning course](https://github.com/mattiasvillani/BayesLearnCourse) - slides, computer labs and exams.
 - [Advanced Bayesian Learning course](https://github.com/mattiasvillani/AdvBayesLearnCourse) - slides and computer labs.
 - [Bayesian Learning - Observable Javascript widgets](https://observablehq.com/collection/@mattiasvillani/bayesian-learning).
-[Turing.jl tutorials](https://turinglang.org/dev/tutorials/)
 
-## Julia/Turing.jl code
+## Julia/Turing.jl code <img src="julialogo.svg" alt="drawing" width="20"/>
+
+Here are some [Turing.jl tutorials](https://turinglang.org/dev/tutorials/).
 
 The file [JuliaCode.zip]() contains the following files:
 - **iidnormalturing.jl** for the iid normal model with both parameters unknown.
